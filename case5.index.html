@@ -7,11 +7,47 @@
     <link rel="stylesheet" href="Assets/fontAwesome/fontawesome-free-6.5.1-web/css/all.min.css">
 
     <style>
+        main{
+            width: 50vw;
+            height: 70vh;
+            border: 3px red solid ;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
 
+            animation-name: slider;
+        }
+
+        main>section{
+            width: 200vw;
+            height: 200vh;
+            display: flex;
+        }
+
+        main>section>div{
+            width: 50vw;
+            height: 70vh;
+            background-color: #ff253a;
+        }
+
+        @keyframes slider {
+
+        }
     </style>
 
 </head>
 <body>
+    <main>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </main>
 <script src="Assets/fontAwesome/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 </body>
 </html>
